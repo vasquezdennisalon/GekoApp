@@ -1,0 +1,1 @@
+/Users/denisvasquez/Desktop/Innobe/Apps/GeckoApp/DerivedData/GeckoApp/Build/Intermediates.noindex/ArchiveIntermediates/GeckoApp/InstallationBuildProductsLocation/Applications/GeckoApp.app

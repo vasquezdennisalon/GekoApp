@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "009dc6b5506cb31eceaed29b0bfc6b8b"
+build_time: [1598559065, 698051000]
+inputs:
+  "/Users/denisvasquez/Desktop/Innobe/Apps/GeckoApp/GeckoApp/Controllers/MainViewController.swift": [1598559065, 230702017]
+  "/Users/denisvasquez/Desktop/Innobe/Apps/GeckoApp/GeckoApp/AppDelegate.swift": [1598483276, 155674997]
+  "/Users/denisvasquez/Desktop/Innobe/Apps/GeckoApp/GeckoApp/Controllers/LoginWelcomeViewController.swift": [1598558725, 973542213]
+  "/Users/denisvasquez/Desktop/Innobe/Apps/GeckoApp/GeckoApp/SceneDelegate.swift": [1598477853, 735255462]
+  "/Users/denisvasquez/Desktop/Innobe/Apps/GeckoApp/GeckoApp/Models/Utils.swift": [1598558726, 280440420]
+  "/Users/denisvasquez/Desktop/Innobe/Apps/GeckoApp/GeckoApp/Models/UIViewControllerExtension.swift": [1598558929, 190946740]
+  "/Users/denisvasquez/Desktop/Innobe/Apps/GeckoApp/GeckoApp/Models/UserProtocol.swift": [1598558987, 166182169]
+  "/Users/denisvasquez/Desktop/Innobe/Apps/GeckoApp/DerivedData/GeckoApp/Build/Intermediates.noindex/GeckoApp.build/Debug-iphonesimulator/GeckoApp.build/DerivedSources/CoreDataGenerated/DBManager/User+CoreDataClass.swift": [1598558732, 260519537]
+  "/Users/denisvasquez/Desktop/Innobe/Apps/GeckoApp/DerivedData/GeckoApp/Build/Intermediates.noindex/GeckoApp.build/Debug-iphonesimulator/GeckoApp.build/DerivedSources/CoreDataGenerated/DBManager/User+CoreDataProperties.swift": [1598558732, 261648275]
+  "/Users/denisvasquez/Desktop/Innobe/Apps/GeckoApp/DerivedData/GeckoApp/Build/Intermediates.noindex/GeckoApp.build/Debug-iphonesimulator/GeckoApp.build/DerivedSources/CoreDataGenerated/DBManager/DBManager+CoreDataModel.swift": [1598558732, 258111951]

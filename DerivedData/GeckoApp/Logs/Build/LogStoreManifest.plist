@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>08AE1BE1-9257-45C0-9816-49BF9C23639D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>08AE1BE1-9257-45C0-9816-49BF9C23639D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GeckoApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GeckoApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build GeckoApp</string>
+			<key>timeStartedRecording</key>
+			<real>620252487.59524596</real>
+			<key>timeStoppedRecording</key>
+			<real>620252488.62901199</real>
+			<key>title</key>
+			<string>Build GeckoApp</string>
+			<key>uniqueIdentifier</key>
+			<string>08AE1BE1-9257-45C0-9816-49BF9C23639D</string>
+		</dict>
+		<key>BB21EA98-C9CC-4A93-81B2-DCCA2BA2AA4B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BB21EA98-C9CC-4A93-81B2-DCCA2BA2AA4B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GeckoApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GeckoApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build GeckoApp</string>
+			<key>timeStartedRecording</key>
+			<real>620251865.603001</real>
+			<key>timeStoppedRecording</key>
+			<real>620251866.66743195</real>
+			<key>title</key>
+			<string>Build GeckoApp</string>
+			<key>uniqueIdentifier</key>
+			<string>BB21EA98-C9CC-4A93-81B2-DCCA2BA2AA4B</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

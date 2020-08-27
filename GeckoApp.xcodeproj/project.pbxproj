@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		264A88FB24F849AE004009EE /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A88FA24F849AE004009EE /* UIViewControllerExtension.swift */; };
+		264A88FD24F849CE004009EE /* UserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A88FC24F849CE004009EE /* UserProtocol.swift */; };
+		265772B324F70D9D007F387E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265772B224F70D9D007F387E /* AppDelegate.swift */; };
+		265772B524F70D9D007F387E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265772B424F70D9D007F387E /* SceneDelegate.swift */; };
+		265772B724F70D9D007F387E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265772B624F70D9D007F387E /* MainViewController.swift */; };
+		265772BA24F70D9D007F387E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265772B824F70D9D007F387E /* Main.storyboard */; };
+		265772BC24F70DA3007F387E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265772BB24F70DA3007F387E /* Assets.xcassets */; };
+		265772BF24F70DA3007F387E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265772BD24F70DA3007F387E /* LaunchScreen.storyboard */; };
+		265772CA24F70DA3007F387E /* GeckoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265772C924F70DA3007F387E /* GeckoAppTests.swift */; };
+		265772D524F70DA3007F387E /* GeckoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265772D424F70DA3007F387E /* GeckoAppUITests.swift */; };
+		265772E324F71364007F387E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265772E224F71363007F387E /* Utils.swift */; };
+		265772E624F72129007F387E /* DBManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 265772E424F72129007F387E /* DBManager.xcdatamodeld */; };
+		265772E824F725BB007F387E /* LoginWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265772E724F725BB007F387E /* LoginWelcomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		265772C624F70DA3007F387E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 265772A724F70D9D007F387E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 265772AE24F70D9D007F387E;
+			remoteInfo = GeckoApp;
+		};
+		265772D124F70DA3007F387E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 265772A724F70D9D007F387E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 265772AE24F70D9D007F387E;
+			remoteInfo = GeckoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		264A88FA24F849AE004009EE /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		264A88FC24F849CE004009EE /* UserProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProtocol.swift; sourceTree = "<group>"; };
+		265772AF24F70D9D007F387E /* GeckoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeckoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		265772B224F70D9D007F387E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		265772B424F70D9D007F387E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		265772B624F70D9D007F387E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		265772B924F70D9D007F387E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		265772BB24F70DA3007F387E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		265772BE24F70DA3007F387E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		265772C024F70DA3007F387E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265772C524F70DA3007F387E /* GeckoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeckoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		265772C924F70DA3007F387E /* GeckoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeckoAppTests.swift; sourceTree = "<group>"; };
+		265772CB24F70DA3007F387E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265772D024F70DA3007F387E /* GeckoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeckoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		265772D424F70DA3007F387E /* GeckoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeckoAppUITests.swift; sourceTree = "<group>"; };
+		265772D624F70DA3007F387E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265772E224F71363007F387E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		265772E524F72129007F387E /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
+		265772E724F725BB007F387E /* LoginWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWelcomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		265772AC24F70D9D007F387E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265772C224F70DA3007F387E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265772CD24F70DA3007F387E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264A88F724F84912004009EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				265772B824F70D9D007F387E /* Main.storyboard */,
+				265772BD24F70DA3007F387E /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		264A88F824F8491B004009EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				265772E424F72129007F387E /* DBManager.xcdatamodeld */,
+				265772E224F71363007F387E /* Utils.swift */,
+				264A88FA24F849AE004009EE /* UIViewControllerExtension.swift */,
+				264A88FC24F849CE004009EE /* UserProtocol.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		264A88F924F8492B004009EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				265772E724F725BB007F387E /* LoginWelcomeViewController.swift */,
+				265772B624F70D9D007F387E /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		265772A624F70D9D007F387E = {
+			isa = PBXGroup;
+			children = (
+				265772B124F70D9D007F387E /* GeckoApp */,
+				265772C824F70DA3007F387E /* GeckoAppTests */,
+				265772D324F70DA3007F387E /* GeckoAppUITests */,
+				265772B024F70D9D007F387E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		265772B024F70D9D007F387E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				265772AF24F70D9D007F387E /* GeckoApp.app */,
+				265772C524F70DA3007F387E /* GeckoAppTests.xctest */,
+				265772D024F70DA3007F387E /* GeckoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		265772B124F70D9D007F387E /* GeckoApp */ = {
+			isa = PBXGroup;
+			children = (
+				265772B224F70D9D007F387E /* AppDelegate.swift */,
+				265772B424F70D9D007F387E /* SceneDelegate.swift */,
+				264A88F924F8492B004009EE /* Controllers */,
+				264A88F724F84912004009EE /* Views */,
+				264A88F824F8491B004009EE /* Models */,
+				265772BB24F70DA3007F387E /* Assets.xcassets */,
+				265772C024F70DA3007F387E /* Info.plist */,
+			);
+			path = GeckoApp;
+			sourceTree = "<group>";
+		};
+		265772C824F70DA3007F387E /* GeckoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				265772C924F70DA3007F387E /* GeckoAppTests.swift */,
+				265772CB24F70DA3007F387E /* Info.plist */,
+			);
+			path = GeckoAppTests;
+			sourceTree = "<group>";
+		};
+		265772D324F70DA3007F387E /* GeckoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				265772D424F70DA3007F387E /* GeckoAppUITests.swift */,
+				265772D624F70DA3007F387E /* Info.plist */,
+			);
+			path = GeckoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		265772AE24F70D9D007F387E /* GeckoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265772D924F70DA3007F387E /* Build configuration list for PBXNativeTarget "GeckoApp" */;
+			buildPhases = (
+				265772AB24F70D9D007F387E /* Sources */,
+				265772AC24F70D9D007F387E /* Frameworks */,
+				265772AD24F70D9D007F387E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeckoApp;
+			productName = GeckoApp;
+			productReference = 265772AF24F70D9D007F387E /* GeckoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		265772C424F70DA3007F387E /* GeckoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265772DC24F70DA3007F387E /* Build configuration list for PBXNativeTarget "GeckoAppTests" */;
+			buildPhases = (
+				265772C124F70DA3007F387E /* Sources */,
+				265772C224F70DA3007F387E /* Frameworks */,
+				265772C324F70DA3007F387E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				265772C724F70DA3007F387E /* PBXTargetDependency */,
+			);
+			name = GeckoAppTests;
+			productName = GeckoAppTests;
+			productReference = 265772C524F70DA3007F387E /* GeckoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		265772CF24F70DA3007F387E /* GeckoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265772DF24F70DA3007F387E /* Build configuration list for PBXNativeTarget "GeckoAppUITests" */;
+			buildPhases = (
+				265772CC24F70DA3007F387E /* Sources */,
+				265772CD24F70DA3007F387E /* Frameworks */,
+				265772CE24F70DA3007F387E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				265772D224F70DA3007F387E /* PBXTargetDependency */,
+			);
+			name = GeckoAppUITests;
+			productName = GeckoAppUITests;
+			productReference = 265772D024F70DA3007F387E /* GeckoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		265772A724F70D9D007F387E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Denis Vásquez";
+				TargetAttributes = {
+					265772AE24F70D9D007F387E = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					265772C424F70DA3007F387E = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 265772AE24F70D9D007F387E;
+					};
+					265772CF24F70DA3007F387E = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 265772AE24F70D9D007F387E;
+					};
+				};
+			};
+			buildConfigurationList = 265772AA24F70D9D007F387E /* Build configuration list for PBXProject "GeckoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 265772A624F70D9D007F387E;
+			productRefGroup = 265772B024F70D9D007F387E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				265772AE24F70D9D007F387E /* GeckoApp */,
+				265772C424F70DA3007F387E /* GeckoAppTests */,
+				265772CF24F70DA3007F387E /* GeckoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		265772AD24F70D9D007F387E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265772BF24F70DA3007F387E /* LaunchScreen.storyboard in Resources */,
+				265772BC24F70DA3007F387E /* Assets.xcassets in Resources */,
+				265772BA24F70D9D007F387E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265772C324F70DA3007F387E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265772CE24F70DA3007F387E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		265772AB24F70D9D007F387E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265772B724F70D9D007F387E /* MainViewController.swift in Sources */,
+				265772B324F70D9D007F387E /* AppDelegate.swift in Sources */,
+				265772E824F725BB007F387E /* LoginWelcomeViewController.swift in Sources */,
+				265772B524F70D9D007F387E /* SceneDelegate.swift in Sources */,
+				265772E324F71364007F387E /* Utils.swift in Sources */,
+				264A88FB24F849AE004009EE /* UIViewControllerExtension.swift in Sources */,
+				264A88FD24F849CE004009EE /* UserProtocol.swift in Sources */,
+				265772E624F72129007F387E /* DBManager.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265772C124F70DA3007F387E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265772CA24F70DA3007F387E /* GeckoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265772CC24F70DA3007F387E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265772D524F70DA3007F387E /* GeckoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		265772C724F70DA3007F387E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 265772AE24F70D9D007F387E /* GeckoApp */;
+			targetProxy = 265772C624F70DA3007F387E /* PBXContainerItemProxy */;
+		};
+		265772D224F70DA3007F387E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 265772AE24F70D9D007F387E /* GeckoApp */;
+			targetProxy = 265772D124F70DA3007F387E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		265772B824F70D9D007F387E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265772B924F70D9D007F387E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		265772BD24F70DA3007F387E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265772BE24F70DA3007F387E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		265772D724F70DA3007F387E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		265772D824F70DA3007F387E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		265772DA24F70DA3007F387E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QFB73GJJP;
+				INFOPLIST_FILE = GeckoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aritec-la.aupar.GeckoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		265772DB24F70DA3007F387E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QFB73GJJP;
+				INFOPLIST_FILE = GeckoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aritec-la.aupar.GeckoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		265772DD24F70DA3007F387E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHQ4J4KFND;
+				INFOPLIST_FILE = GeckoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aritec-la.aupar.GeckoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeckoApp.app/GeckoApp";
+			};
+			name = Debug;
+		};
+		265772DE24F70DA3007F387E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHQ4J4KFND;
+				INFOPLIST_FILE = GeckoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aritec-la.aupar.GeckoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeckoApp.app/GeckoApp";
+			};
+			name = Release;
+		};
+		265772E024F70DA3007F387E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHQ4J4KFND;
+				INFOPLIST_FILE = GeckoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aritec-la.aupar.GeckoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeckoApp;
+			};
+			name = Debug;
+		};
+		265772E124F70DA3007F387E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHQ4J4KFND;
+				INFOPLIST_FILE = GeckoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aritec-la.aupar.GeckoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeckoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		265772AA24F70D9D007F387E /* Build configuration list for PBXProject "GeckoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265772D724F70DA3007F387E /* Debug */,
+				265772D824F70DA3007F387E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265772D924F70DA3007F387E /* Build configuration list for PBXNativeTarget "GeckoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265772DA24F70DA3007F387E /* Debug */,
+				265772DB24F70DA3007F387E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265772DC24F70DA3007F387E /* Build configuration list for PBXNativeTarget "GeckoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265772DD24F70DA3007F387E /* Debug */,
+				265772DE24F70DA3007F387E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265772DF24F70DA3007F387E /* Build configuration list for PBXNativeTarget "GeckoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265772E024F70DA3007F387E /* Debug */,
+				265772E124F70DA3007F387E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		265772E424F72129007F387E /* DBManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				265772E524F72129007F387E /* User.xcdatamodel */,
+			);
+			currentVersion = 265772E524F72129007F387E /* User.xcdatamodel */;
+			path = DBManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 265772A724F70D9D007F387E /* Project object */;
+}
